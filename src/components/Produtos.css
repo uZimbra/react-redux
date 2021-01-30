@@ -1,0 +1,28 @@
+.produtos-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.sessao-produto {
+  display: flex;
+  border: 1px solid rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.nome-produto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  width: 200px;
+  height: 50px;
+  overflow: hidden;
+  word-wrap: break-word;
+}
+
+.preco-produto {
+  font-weight: 700;
+}
